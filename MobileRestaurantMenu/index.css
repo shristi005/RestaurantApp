@@ -1,0 +1,170 @@
+html,
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    color: white;
+    background-image: url("./img/bgimg.png");
+    background-size: cover;
+    height: 200px;
+}
+
+main {
+    width: 650px;
+}
+
+
+
+.cart-section {
+    display: block;
+    width: 650px;
+
+
+}
+
+.cart-section h3 {
+    text-align: center;
+}
+
+.bill-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.header-text {
+    width: 650px;
+    position: relative;
+    left: 50px;
+    top: 50px;
+    bottom: 50px;
+}
+
+
+#menu-items {
+    width: 650px;
+    margin: 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.items {
+    display: flex;
+    width: 650px;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 15px;
+    margin-bottom: 45px;
+    border-bottom: 2px solid #D2D2D2;
+}
+
+.item-info {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+
+}
+
+.item-data {
+    line-height: 5px;
+}
+
+.add-item {
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    border: 2px solid #D2D2D2;
+    border-radius: 50%;
+}
+
+.remove {
+    border: none;
+    background-color: white;
+    color: #D2D2D2;
+}
+
+#order-item-info {
+    display: flex;
+
+    align-items: center;
+    gap: 10px;
+}
+
+#order-item {
+    margin: 30px;
+}
+
+
+#complete-order {
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+#complete-order-btn {
+    background-color: #16DB99;
+    border: none;
+    color: white;
+    width: 590px;
+    padding: 10px 50px;
+
+}
+
+#total-price {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+    border-top: 3px solid black;
+}
+
+
+
+
+.hidden {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+
+#modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    box-shadow: 4px solid black;
+    border: 5px solid black;
+}
+
+#modal-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#form-input {
+    padding: 5px;
+    text-align: center;
+}
+
+#pay-btn {
+    background-color: #16DB99;
+    border: none;
+    color: white;
+    width: 250px;
+    padding: 10px 50px;
+
+}
