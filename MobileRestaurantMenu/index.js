@@ -36,6 +36,7 @@ document.getElementById("complete-order-btn").addEventListener("click", () => {
 
 document.getElementById("pay-btn").addEventListener("click", (e) => {
     e.preventDefault()
+
     document.getElementById("modal").classList.toggle("hidden")
     cart.innerHTML = `<div class="payment-complete-msg">Thanks, James! Your order is on its way!</div>`
     orderArray = []
